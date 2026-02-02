@@ -1,4 +1,3 @@
-# Devops Daily Labs
 # DevOps Daily Labs
 
 This repository contains my daily hands-on DevOps and infrastructure labs.
