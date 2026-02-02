@@ -1,0 +1,57 @@
+==============================
+ Linux Health Check Report
+==============================
+Hostname: desktop
+Date: Mon Feb  2 10:39:33 PM IST 2026
+
+---- CPU Usage ----
+CPU Usage: 0.7%
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       4.8Gi        23Gi       484Mi       3.8Gi        26Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  233G   64G  158G  29% /
+
+---- Top 5 Processes by CPU ----
+    PID    PPID CMD                         %MEM %CPU
+   1497       1 /usr/bin/java -Djava.awt.he  1.8  1.9
+   4235    3968 /opt/google/chrome/chrome -  1.4  1.7
+  12213    3185 /usr/bin/gnome-control-cent  0.6  1.4
+   3185    2879 /usr/bin/gnome-shell         1.1  1.3
+   1682       1 /usr/sbin/mysqld             1.2  1.0
+
+Health check completed.
+==============================
+==============================
+ Health Check Report Linux
+==============================
+Hostname: desktop
+Date: Mon Feb  2 10:41:36 PM IST 2026
+
+---- CPU Usage ----
+CPU Usage: 0.7%
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       4.8Gi        23Gi       500Mi       3.8Gi        26Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  233G   64G  158G  29% /
+
+---- Top 5 Processes by CPU ----
+    PID    PPID CMD                         %MEM %CPU
+  14834   14826 ps -eo pid,ppid,cmd,%mem,%c  0.0  300
+   1497       1 /usr/bin/java -Djava.awt.he  1.8  1.9
+   4235    3968 /opt/google/chrome/chrome -  1.4  1.7
+   3185    2879 /usr/bin/gnome-shell         1.1  1.3
+  12213    3185 /usr/bin/gnome-control-cent  0.6  1.3
+
+==============================
+Health check completed.
+==============================
