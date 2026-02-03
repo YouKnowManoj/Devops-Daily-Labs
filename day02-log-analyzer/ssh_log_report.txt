@@ -1,0 +1,11 @@
+SSH Log Analysis Report
+Generated on: Tue Feb  3 07:26:50 PM IST 2026
+--------------------------------
+
+Failed SSH Login Attempts:
+
+Successful SSH Logins:
+
+Summary:
+Failed attempts: 0
+Successful logins: 0
