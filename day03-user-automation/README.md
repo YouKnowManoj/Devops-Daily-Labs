@@ -9,4 +9,4 @@ This bash script that automates:
     Giving Sudo Access
     Forcing to reset password after login
 
-Usage pattern: ./create_user.sh <username>
+*Usage pattern: ./create_user.sh <username>
