@@ -24,7 +24,18 @@ jobs:
               run: docker logs test-app
 
             - name: Test Application
-              run: curl http://localhost:8980
+            #   run: curl http://localhost:8980
+              run: |
+                for i in {1..10}; do
+                    if curl -f http://localhost:8980; then
+                        echo "App is up"
+                        exit 0
+                    fi
+                        echo "Waiting for app..."
+                        sleep 2
+                    done
+                echo "App failed to start"
+                exit 1
 
             - name: cleanup
               run: |
